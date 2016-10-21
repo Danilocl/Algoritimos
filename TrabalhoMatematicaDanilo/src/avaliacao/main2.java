@@ -29,5 +29,6 @@ public class main2 {
 
 		System.out.println(" O resultado é " + resultado);
 		in.close();
+	
 	}
 }
