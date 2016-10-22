@@ -10,7 +10,7 @@ public class main2 {
 		System.out.println("Digite 'true' para verdadeiro e 'false' para falso'");
 		System.out.println("                                                   ");
 		System.out.println("                                                   ");
-		System.out.println("Pv(q^r) ^ (p V q0 ^(pVr)");
+		System.out.println("Pv(q^r) <==> (p V q0 ^(pVr)");
 
 		System.out.println("Digite o valor de r");
 		r = in.nextLine();
