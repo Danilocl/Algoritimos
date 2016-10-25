@@ -54,16 +54,16 @@ public class control {
 	}
 	
 
-//	public static String erro (String x) {
-//		String y;
-//		if (x=="true") {
-//		y = "true";
-//		 } else if (x=="false") {
-//			 y ="false";
-//		} else {
-//			System.out.println("O valor digitado é invalido ");
-//			System.out.println("Favor digite false para (Falso) e true para (verdadeiro) ");
-//		}
-//		return x;
+	public static void erro (boolean p,boolean q,boolean r) {
+		if ((p != true) && (p != false)) {
+			System.out.println("erro");
+		}
+		if ((q != true) && (q != false)) {
+			System.out.println("erro");
+		}
+		if ((r != true) && (r != false)) {
+			System.out.println("erro");
+		}
+		
 	}
-
+}
