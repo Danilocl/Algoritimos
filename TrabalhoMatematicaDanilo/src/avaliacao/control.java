@@ -47,7 +47,9 @@ public class control {
 
 	public static void tabela2(boolean p, boolean q, boolean r) {
 		System.out.println("|P|Q|R|");
-	    System.out.printf(""+p,q,r);
+	    System.out.print(   p);
+	    System.out.print(   q);
+	    System.out.print(   r);
 	
 	}
 	

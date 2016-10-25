@@ -27,9 +27,12 @@ public class main2 {
 		
 		System.out.println("\n");
 		
+		control.tabela2(p, q, r);
+		
 		boolean resultado = control.control2 (p, q, r);
         
-		control.tabela2(p, q, r);
+		
+			
 		
 		System.out.println("\n O resultado é " + resultado);
 		in.close();
