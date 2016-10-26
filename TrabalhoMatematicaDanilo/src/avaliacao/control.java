@@ -1,9 +1,9 @@
 package avaliacao;
 
 public class control {
-	public static boolean control2 (boolean p,boolean q,boolean r) {
+	public static boolean control2(boolean p, boolean q, boolean r) {
 
-	boolean[] tabela = new boolean[7];
+		boolean[] tabela = new boolean[7];
 
 		if ((q == true) && (r == true)) {
 			// Primeiro
@@ -46,15 +46,13 @@ public class control {
 	}
 
 	public static void tabela2(boolean p, boolean q, boolean r) {
-		System.out.println("|P|Q|R|");
-	    System.out.print(   p);
-	    System.out.print(   q);
-	    System.out.print(   r);
-	
-	}
-	
+		if ((p == true) && (q == true) && (r == true)) {
+			System.out.println("Pv(q^r) <==> (p V q) ^ (pVr)");
+		}
 
-	public static void erro (boolean p,boolean q,boolean r) {
+	}
+
+	public static void erro (boolean p, boolean q, boolean r) {
 		if ((p != true) && (p != false)) {
 			System.out.println("erro");
 		}
@@ -64,6 +62,6 @@ public class control {
 		if ((r != true) && (r != false)) {
 			System.out.println("erro");
 		}
-		
+
 	}
 }
