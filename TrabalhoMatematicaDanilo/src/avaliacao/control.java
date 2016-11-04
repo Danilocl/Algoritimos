@@ -49,17 +49,33 @@ public class control {
 
 	}
 	
-	public static void tabela(boolean p, boolean q, boolean r) {
-		System.out.println(" |p| q| r|(q ^ r)|pv(q ^ r)| <==> | (p v q) |(p v r) |(p v q)^(p v r)  |");      
+	public static void tabela (boolean p, boolean q, boolean r) {
+		System.out.println(" |p| q| r|(q ^ r)|pv(q ^ r)| <==> | (p v q) |(p v r) |(p v q)^(p v r)  |");
+		 if ((p==true) && (q==true) && (r==true))  {
         System.out.println(" |V| V| V|   V   |     V   |   V  |    V    |   V    |       V         |");
-        System.out.println(" |V| V| F|   F   |     V   |   V  |    V    |   V    |       V         |");
-        System.out.println(" |V| F| V|   F   |     V   |   V  |    V    |   V    |       V         |");
-        System.out.println(" |V| F| F|   F   |     V   |   V  |    V    |   V    |       V         |");
-        System.out.println(" |F| V| V|   V   |     V   |   V  |    V    |   V    |       V         |");
-        System.out.println(" |F| V| F|   F   |     F   |   V  |    V    |   F    |       F         |");
-        System.out.println(" |F| F| V|   F   |     F   |   v  |    F    |   V    |       F         |");
-        System.out.println(" |F| F| F|   F   |     F   |   v  |    F    |   F    |       F         |");       
-        System.out.println("_______________________________________________________________________|");
+		 }
+		if ((p==true) && (q==true) && (r==false)) {
+		System.out.println(" |V| V| F|   F   |     V   |   V  |    V    |   V    |       V         |");
+		 }
+		 else if ((p=true) || (q=false) || (r=true)) {
+		 System.out.println(" |V| F| V|   F   |     V   |   V  |    V    |   V    |       V         |");
+		 }
+		 else if ((p=true) || (q=false) || (r=false))  {
+		 System.out.println(" |V| F| F|   F   |     V   |   V  |    V    |   V    |       V         |");
+		 }
+		 else if ((p=false) || (q=true) || (r=true))  {
+		 System.out.println(" |F| V| V|   V   |     V   |   V  |    V    |   V    |       V         |");
+		 }
+		 else if ((p=false) || (q=true) || (r=false))  {
+		 System.out.println(" |F| V| F|   F   |     F   |   V  |    V    |   F    |       F         |");
+		 }
+		 else if ((p=false) || (q=false) || (r=true))  {
+		 System.out.println(" |F| F| V|   F   |     F   |   v  |    F    |   V    |       F         |");
+		 }
+		 else if ((p=false) || (q=false) || (r=false))  {
+		 System.out.println(" |F| F| F|   F   |     F   |   v  |    F    |   F    |       F         |");       
+		 }
+		 System.out.println("_______________________________________________________________________|");
 
 	}
 
