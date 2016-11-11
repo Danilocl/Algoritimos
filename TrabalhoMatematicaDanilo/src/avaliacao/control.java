@@ -54,25 +54,25 @@ public class control {
 		 if ((p==true) && (q==true) && (r==true))  {
         System.out.println(" |V| V| V|   V   |     V   |   V  |    V    |   V    |       V         |");
 		 }
-		if ((p==true) && (q==true) && (r==false)) {
+		 else if ((p==true) && (q==true) && (r==false)) {
 		System.out.println(" |V| V| F|   F   |     V   |   V  |    V    |   V    |       V         |");
 		 }
-		 else if ((p=true) || (q=false) || (r=true)) {
+		 else if ((p==true) && (q==false) && (r==true)) {
 		 System.out.println(" |V| F| V|   F   |     V   |   V  |    V    |   V    |       V         |");
 		 }
-		 else if ((p=true) || (q=false) || (r=false))  {
+		 else if ((p==true) && (q==false) && (r==false))  {
 		 System.out.println(" |V| F| F|   F   |     V   |   V  |    V    |   V    |       V         |");
 		 }
-		 else if ((p=false) || (q=true) || (r=true))  {
+		 else if ((p==false) && (q==true) && (r==true))  {
 		 System.out.println(" |F| V| V|   V   |     V   |   V  |    V    |   V    |       V         |");
 		 }
-		 else if ((p=false) || (q=true) || (r=false))  {
+		 else if ((p==false) && (q==true) && (r==false))  {
 		 System.out.println(" |F| V| F|   F   |     F   |   V  |    V    |   F    |       F         |");
 		 }
-		 else if ((p=false) || (q=false) || (r=true))  {
+		 else if ((p==false) && (q==false) && (r==true))  {
 		 System.out.println(" |F| F| V|   F   |     F   |   v  |    F    |   V    |       F         |");
 		 }
-		 else if ((p=false) || (q=false) || (r=false))  {
+		 else if ((p==false) && (q==false) && (r==false))  {
 		 System.out.println(" |F| F| F|   F   |     F   |   v  |    F    |   F    |       F         |");       
 		 }
 		 System.out.println("_______________________________________________________________________|");

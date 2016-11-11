@@ -15,14 +15,14 @@ public class main {
 			System.out.println("     Pv(q^r) <==> (p V q) ^ (pVr)    ");
 			System.out.println("                                                   ");
 
-			System.out.println("Digite o valor de r");
-			r = in.nextBoolean();
+			System.out.println("Digite o valor de p");
+			p = in.nextBoolean();
 
 			System.out.println("Digite o valor de q");
 			q = in.nextBoolean();
 
-			System.out.println("Digite o valor de P");
-			p = in.nextBoolean();
+			System.out.println("Digite o valor de r");
+			r = in.nextBoolean();
 
 			System.out.println("\n");
 
@@ -31,7 +31,7 @@ public class main {
 			System.out.println("\n O resultado é " + resultado);
 			System.out.println("\n");
 	
-            System.out.println("Deseja ver a tabela ?");
+            System.out.println("Deseja ver a tabela correspondente ao seu resultado ?");
 			System.out.println("\n");
             System.out.println("Digte '1' para sim e '2' para não"); 
 			resp = in.nextInt();
